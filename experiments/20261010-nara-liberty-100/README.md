@@ -2,6 +2,10 @@
 
 同じ企画の試作をバージョンごとに保存する場所です。各版の画像・説明・コード・実行方法をまとめています。
 
+最新の計画: [Ver2.2 — 大仏前交差点から東大寺大仏殿周辺の取込計画](docs/ver2.2-plan.md)。ユーザーの想定エリアを東大寺側へ修正。方針確認済みで資料整理・制作環境確認中。東大寺シーンの実装・公開はまだ行っていません。V1・春日大社版V2は比較用に保持します。
+
+Ver2.2の参照セット: [テスト計画書](docs/ver2.2-test-plan.md) · [赤枠付きの再現範囲画像](assets/references/ver2.2/todaiji-ver2.2-reproduction-area.png) · [画像の保存記録](assets/references/ver2.2/README.md) · [Blender確認結果](docs/ver2.2-blender-check.md)。画像原本は保存済みです。
+
 ```text
 experiments/20261010-nara-liberty-100/
 ├── README.md
