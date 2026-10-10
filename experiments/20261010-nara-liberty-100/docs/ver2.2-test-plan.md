@@ -2,7 +2,11 @@
 
 作成日: 2026-10-11 日本時間。東大寺シーンの検証は未実施。
 
-[取込計画](ver2.2-plan.md)と[ユーザーの赤枠画像の保存先](../assets/references/ver2.2/README.md)を一組として使う。範囲画像は原本取得待ち。以下は完成済みのテスト結果ではなく、実装時の判定基準。
+[取込計画](ver2.2-plan.md)と[ユーザーの赤枠画像](../assets/references/ver2.2/todaiji-ver2.2-reproduction-area.png)を一組として使う。原本は2026-10-11に保存済み。[保存記録](../assets/references/ver2.2/README.md)にファイル名・ハッシュ・保存日を記録した。以下は実装時の判定基準。
+
+![検証対象となるVer2.2の範囲](../assets/references/ver2.2/todaiji-ver2.2-reproduction-area.png)
+
+S01の原本保存と計画書・本書からの参照は確認済み。座標への対応付け・シーンの実装検証はこれから行う。
 
 ## 最優先: 範囲・縮尺・位置関係
 

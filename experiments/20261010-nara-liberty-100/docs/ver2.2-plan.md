@@ -5,6 +5,10 @@
 
 関連資料: [テスト計画書](ver2.2-test-plan.md) · [赤枠画像の保存先と範囲記録](../assets/references/ver2.2/README.md) · [制作環境確認](ver2.2-blender-check.md)
 
+![ユーザー指定のVer2.2再現範囲](../assets/references/ver2.2/todaiji-ver2.2-reproduction-area.png)
+
+ユーザー提供の赤枠付きPNGを2026-10-11に保存。原本の記録は[参照資料の説明](../assets/references/ver2.2/README.md)へまとめた。この画像をテスト計画書と共通の範囲根拠とする。
+
 2026-10-11の追加指示: 交差点〜大仏殿を重点的にリアルにし、周辺は粗めでよい。造形の細かさよりも縮尺・位置関係を優先する。周辺を簡略化する場合も位置や大きさを都合よく変えない。
 
 ## 目的と変更点
