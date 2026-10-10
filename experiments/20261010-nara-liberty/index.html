@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#233d33" />
+  <meta name="description" content="奈良公園と春日大社をイメージした、小さな3D散歩。100体の自由の女神と、いつも通りの鹿。" />
+  <title>Nara Liberty 100 — いつもと違う、奈良散歩。</title>
+</head>
+<body>
+  <main>
+    <div id="scene" aria-label="奈良をイメージした3D風景"></div>
+    <header class="masthead"><a class="brand" href="./"><span class="brand-icon">鹿</span><span>NARA LIBERTY <b>100</b><small>EXPERIMENT 001 · THREE.JS</small></span></a><span class="edition">奈良、ちょっと別の世界。</span></header>
+    <section class="intro"><p class="eyebrow"><span></span> A SMALL WALK, A STRANGE WORLD</p><h1>いつもと違う、<br><em>奈良散歩。</em></h1><p class="lead">鹿はいつも通り。<br>自由の女神たちは、今日も参道を歩く。</p><div class="live"><span></span><span id="count-label">100体が散歩中</span></div></section>
+    <aside class="places" aria-label="眺める場所"><span class="section-label">VIEWPOINTS / 眺める場所</span><button class="place active" data-view="park" aria-pressed="true"><span>01</span>奈良公園<small>広場を眺める</small><b>↗</b></button><button class="place" data-view="path" aria-pressed="false"><span>02</span>春日の参道<small>灯籠のあいだへ</small><b>↗</b></button><button class="place" data-view="shrine" aria-pressed="false"><span>03</span>朱色の社殿<small>森の奥へ</small><b>↗</b></button></aside>
+    <div class="scene-tag"><span id="view-label">奈良公園 / PARK VIEW</span><small>実景をもとにしたイメージ空間</small></div>
+    <section class="toolbar" aria-label="散歩の設定"><div class="toolbar-title"><span class="tiny">PLAY WITH THE WORLD</span><strong>散歩を、少し変えてみる。</strong></div><label class="field">女神の数<select id="statue-count"><option value="0">0体 · 奈良だけ</option><option value="1">1体</option><option value="10">10体</option><option value="100" selected>100体</option></select></label><label class="field speed">歩く速さ <output id="speed-label">1.0×</output><input id="speed" type="range" min="0.2" max="2" step="0.1" value="1" /></label><button id="pause" class="primary" aria-pressed="false">Ⅱ 一時停止</button><button id="reset" class="reset" aria-label="視点を戻す">↺</button></section>
+    <footer><span>ドラッグで回転 · スクロール / ピンチで拡大</span><button id="about-button">この実験について ↗</button><span id="fps" aria-label="描画速度">準備中</span></footer>
+    <div id="loading" role="status">奈良の森を準備しています…</div>
+    <div id="error" role="alert" hidden>3Dを表示できませんでした。WebGL対応のブラウザで開き直してください。</div>
+    <dialog id="about"><button id="close-about" aria-label="閉じる">×</button><p class="eyebrow">NARA LIBERTY 100 / FIRST PROTOTYPE</p><h2>ただのネタなのに、<br>技術は本物。</h2><p>データをグラフではなく、空間と動きで体験する実験です。女神の数や速さを変えて、どんな景色になるか眺めてみてください。</p><p>この版は奈良公園・春日大社の雰囲気を手作りの形で表したものです。建物の寸法や配置は実測ではなく、観光案内用の地図ではありません。</p><p>女神と鹿も簡略モデル。歩行は足を揺らす簡単な表現です。実データとの接続はこれから。</p><a href="https://drive.google.com/drive/folders/14MfT-fQVJrwjkFXsV2NFVWxLhiTjLJrj" target="_blank" rel="noopener noreferrer">元の企画書を Google Drive で読む ↗</a><small>資料を見るには、Driveの閲覧権限が必要です。</small></dialog>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
