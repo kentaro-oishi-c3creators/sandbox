@@ -1,0 +1,14 @@
+{
+  "name": "nara-liberty-100",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "vite": "7.1.9", "playwright-core": "1.56.0" }
+}
