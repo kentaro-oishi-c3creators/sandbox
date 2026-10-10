@@ -34,4 +34,12 @@ Chromiumはこの環境でSwiftShader（CPUで描画する代替方式）を使�
 
 ## 公開先
 
-専用プロジェクト: `kasuga-forest-v2`。デプロイ完了後にURLとソースのコミット番号をここへ追記する。認証用共有リンクの秘密部分は記録しない。
+専用プロジェクト: `kasuga-forest-v2`。Vercel APIで本番デプロイの `READY`（配信準備完了）を確認。
+
+- 公開URL: https://kasuga-forest-v2.vercel.app/
+- 固定デプロイURL: https://kasuga-forest-v2-9kuhulzav-isiken-c3creators.vercel.app/
+- デプロイID: `dpl_3e2kASAGHHxUe2peaSd4R4MhdUgT`
+- 配信ソース: `54ae37bc0d4c79af77ca153705b8096a6bfe9529`
+- V1比較: https://nara-liberty-100.vercel.app/
+
+認証設定を維持しているため、所有者のログインまたは期限付き共有リンクが必要。共有リンクの秘密部分はこの文書に保存しない。公開URL取得ツールは保護設定の読取段階で403を返した。作成・ビルド状態の確認は成功しており、接続設定不足とは断定しない。公開URLでのブラウザ描画確認は未完了。ローカルでは公開ソースと同じビルドの実際のChromium操作を確認済み。
