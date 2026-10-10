@@ -1,0 +1,22 @@
+# 実験ごとの依存と Python の一時出力
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 設定の実値は保存せず、見本だけを残す
+.env
+.env.*
+!.env.example
+
+# 生成物と一時出力は各実験の必要に応じて補足する
+/experiments/*/dist/
+/experiments/*/build/
+/experiments/*/.next/
+/experiments/*/coverage/
+/experiments/*/scratch/
+.DS_Store
