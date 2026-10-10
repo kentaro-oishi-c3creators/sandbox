@@ -1,0 +1,112 @@
+{
+  "origin": {
+    "lat": 34.68353,
+    "lon": 135.83987
+  },
+  "coordinateSystem": "WGS84 approximate local tangent: X east, Z south, Y relative height metres",
+  "sources": {
+    "official": "https://www.todaiji.or.jp/download/#keidai",
+    "hallDimensions": "https://www.todaiji.or.jp/information/daibutsuden/",
+    "gateDimensions": "https://www.todaiji.or.jp/information/nandaimon/",
+    "approachAnchor": "https://mapcarta.com/W591639935",
+    "hallAnchor": "https://opd.opendata-japan.com/facility_and_place_v5s?facility_id=GV-UWMW-Z8OP-0JA8"
+  },
+  "accuracy": "Prototype. Anchors from secondary POI listings; other positions inferred from official schematic. Not surveyed; elevation and road widths estimated.",
+  "landmarks": [
+    {
+      "id": "intersection",
+      "name": "大仏前交差点",
+      "lat": 34.68353,
+      "lon": 135.83987,
+      "height": 0,
+      "confidence": "estimated"
+    },
+    {
+      "id": "approach",
+      "name": "参道",
+      "lat": 34.68421,
+      "lon": 135.83989,
+      "height": 1,
+      "confidence": "secondary POI"
+    },
+    {
+      "id": "nandaimon",
+      "name": "南大門",
+      "lat": 34.68645,
+      "lon": 135.83985,
+      "height": 4,
+      "confidence": "estimated"
+    },
+    {
+      "id": "pond",
+      "name": "鏡池",
+      "lat": 34.6874,
+      "lon": 135.84023,
+      "height": 5,
+      "confidence": "estimated"
+    },
+    {
+      "id": "chumon",
+      "name": "中門",
+      "lat": 34.68799,
+      "lon": 135.83986,
+      "height": 6,
+      "confidence": "estimated"
+    },
+    {
+      "id": "hall",
+      "name": "大仏殿",
+      "lat": 34.6889558,
+      "lon": 135.8398554,
+      "height": 7,
+      "confidence": "secondary POI"
+    }
+  ],
+  "route": [
+    [
+      34.68353,
+      135.83987,
+      0
+    ],
+    [
+      34.68421,
+      135.83989,
+      1
+    ],
+    [
+      34.6857,
+      135.83987,
+      3
+    ],
+    [
+      34.68645,
+      135.83985,
+      4.5
+    ],
+    [
+      34.6878,
+      135.83986,
+      6
+    ],
+    [
+      34.6878,
+      135.8392,
+      6
+    ],
+    [
+      34.68822,
+      135.8392,
+      6.5
+    ],
+    [
+      34.68822,
+      135.83986,
+      6.5
+    ],
+    [
+      34.68838,
+      135.83992,
+      6.7
+    ]
+  ]
+}

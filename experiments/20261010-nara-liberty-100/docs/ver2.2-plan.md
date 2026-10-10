@@ -170,3 +170,7 @@ experiments/20261010-nara-liberty-100/
 - [国土地理院・地理院地図の機能](https://maps.gsi.go.jp/help/intro/kinolist/): 緯度経度・標高・計測機能の確認。
 - [国土地理院・距離等の計測](https://maps.gsi.go.jp/help/intro/kinolist/3-keisoku.html): 距離・面積を実装前に測る方法。
 - [国土交通省・PLATEAUオープンデータ](https://www.mlit.go.jp/plateau/open-data/): 任意の追加候補。今回の範囲に使えるデータの取得は未実施。
+
+## 初期実装の記録（2026-10-11 日本時間）
+
+[独立したv2.2](../v2.2/README.md)へ実装。Blender生成GLB、主経路と周辺外形、PC・モバイル操作を追加しました。[検証記録](../v2.2/docs/validation.md)に達成済みと未確認を区別しています。通信制限で詳細地理データと写真の取得ができず、位置・標高の高精度照合は次の工程です。
