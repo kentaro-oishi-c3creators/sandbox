@@ -15,3 +15,14 @@
 S05公式外接寸法、S06Blender→GLB、F01〜F05・F08の基本操作を確認。S07は経路目線を固定し門の基壇に合わせた簡易高度を使用するが、実地段差の精度は未確認。F06の実GPUの30/20FPS目標は、クラウドのソフトウェア描画（SwiftShader）では評価できない。静止中に描画を止める点は検証。
 
 細部・彫刻、店舗の実在外観、路面断面、樹木形状の写実性、実機速度は次の改善対象。現時点はメートル尺度の空間と建築外形を歩いて評価する初期版。
+
+## 公開の記録
+
+Vercelプロジェクト `todaiji-nara-v2-2` を新設し、2026-10-11に初期版を公開。APIで `READY`（ビルド成功・公開準備完了）を確認。
+
+- [Ver2.2の公開先](https://todaiji-nara-v2-2.vercel.app/)
+- [今回の固定URL](https://todaiji-nara-v2-2-mi17skjv4-isiken-c3creators.vercel.app/)
+- 公開したアプリのソース：`9420c32cee18565d2a8b51be1f78fcc926621b68`
+- 環境の閲覧保護を維持し、チャットには7日間の閲覧用リンクを発行。期限付きトークンはGitHubに保存しない。
+- F07：公開URLに対するChromium確認は `net::ERR_TUNNEL_CONNECTION_FAILED`。Vercelの読み取りツールも `read_protection_bypass` の403。接続設定不足とは断定しない。公開APIの成功と公開サイトを実ブラウザで確認したことは区別し、F07は未確認とする。
+- ローカルでは `npm run preview -- --port 4176` の公開用ビルドに対し `BASE_URL=http://127.0.0.1:4176 npm run test:browser` を実行し、全テスト成功。
