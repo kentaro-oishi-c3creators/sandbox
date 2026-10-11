@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#1a2723"><meta name="description" content="大仏前交差点から南大門・鏡池を経て東大寺大仏殿へ。メートル尺度で歩くThree.jsの初期試作。"><title>東大寺へ歩く — Nara V2.2</title></head>
+<body>
+<main>
+  <div id="scene" aria-label="東大寺周辺の3D試作"></div>
+  <div class="vignette" aria-hidden="true"></div>
+  <header><a href="./" class="brand"><span class="crest">東</span><span>東大寺へ歩く<small>TODAIJI APPROACH · NARA V2.2</small></span></a><div class="header-actions"><button id="quality" aria-pressed="false">描画：標準</button><button id="about-open">この再構成について ↗</button></div></header>
+  <section class="title-block"><span class="eyebrow">01 / THE APPROACH</span><h1>街から、<br>大仏殿へ。</h1><p>大仏前の交差点から、南大門をくぐる。<br>人の目線で、建築の大きさを感じる。</p><span class="version-note">V2.2 · 東大寺 / 配置・地形は推定を含む初期版</span></section>
+  <aside class="route-card" aria-label="参道の現在地"><div class="route-heading"><span>東大寺参道</span><small>ROUTE</small></div><div class="route-map"><svg viewBox="0 0 150 170" aria-label="散策ルートの現在地"><path id="route-line" d="M80 155 L80 30" fill="none" stroke="#96a897" stroke-width="2"/><circle id="map-position" cx="30" cy="146" r="6" fill="#d19c73" stroke="#f5e8cd" stroke-width="2"/></svg><span class="map-end">大仏殿</span><span class="map-torii">中門</span><span class="map-start">交差点</span></div><p>1単位＝1m / 距離を短縮しない再構成</p></aside>
+  <div class="location"><span class="location-mark"></span><div><strong id="location-name">大仏前交差点</strong><small id="location-sub">街の通りから、東大寺へ。</small></div></div>
+  <nav class="waypoints" aria-label="場所へ移動"><button data-stop="0" class="active" aria-pressed="true"><span>01</span>交差点</button><button data-stop="0.38" aria-pressed="false"><span>02</span>南大門</button><button data-stop="0.68" aria-pressed="false"><span>03</span>鏡池・中門</button><button data-stop="1" aria-pressed="false"><span>04</span>大仏殿</button></nav>
+  <section class="walk-controls" aria-label="散策の操作"><div class="walk-row"><button id="walk" class="walk-button" aria-pressed="false"><span>▶</span> 散策を始める</button><label class="progress-label" for="progress">参道を進む <output id="progress-label">0%</output><input id="progress" type="range" min="0" max="100" step="0.1" value="0" aria-label="参道の位置"></label><label class="speed-label">移動<select id="speed"><option value="2.4">ゆっくり</option><option value="25" selected>早送り</option></select></label><button id="overview" aria-pressed="false">俯瞰 ↗</button><button id="reset" aria-label="入口に戻る">↺</button></div><div class="walk-help"><span>ドラッグで見回す · W / ↑ で前進 · S / ↓ で戻る</span><span>目線 1.65m <i></i> 大仏殿 48.742m <i></i> <span id="fps">準備中</span></span></div></section>
+  <div class="touch-walk" aria-label="タッチで移動"><button id="forward" aria-label="前進する">↑</button><button id="backward" aria-label="後退する">↓</button></div>
+  <div id="arrival" hidden role="status"><span>大仏殿に到着しました。</span><small>幅57.012m・高さ48.742mの大仏殿。</small></div>
+  <div id="loading" role="status"><span>東大寺</span><p>東大寺の建築と参道を準備しています。</p></div><div id="error" role="alert" hidden>3Dを表示できませんでした。WebGL2対応のブラウザで再度お試しください。</div>
+  <dialog id="about"><button id="about-close" aria-label="閉じる">×</button><span class="eyebrow">NARA LIBERTY / VERSION 2.2</span><h2>まず、東大寺の大きさを。</h2><p>大仏前交差点から参道・南大門・鏡池を経て、西側の拝観入口と大仏殿前庭へ。自由の女神、鹿、人は次の段階です。</p><p>大仏殿の幅・奥行・高さと南大門の高さは公式寸法を使用。1単位＝1m、目線1.65mで距離を短縮していません。ただし地点の座標・道路幅・標高・建築細部は推定を含み、測量に基づく正確な再現ではありません。</p><p>Blenderで生成した建築モデルを読み込みます。周辺の戒壇院・勧進所・鐘楼などは外形を簡略化しています。大仏殿の内部、仁王像の彫刻は未制作です。</p><div class="about-links"><a href="https://www.todaiji.or.jp/download/#keidai" target="_blank" rel="noopener noreferrer">東大寺公式・境内案内図 ↗</a><a href="https://www.todaiji.or.jp/information/daibutsuden/" target="_blank" rel="noopener noreferrer">大仏殿の公式寸法 ↗</a></div></dialog>
+</main><script type="module" src="/src/main.js"></script>
+</body></html>
